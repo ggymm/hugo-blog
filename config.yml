@@ -1,4 +1,4 @@
-baseURL: "https://docs.ggymm.syz"
+baseURL: "https://blog.ggymm.syz"
 title: Blog
 theme: ["paper"]
 mainsections: ["docs"]
