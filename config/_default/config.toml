@@ -1,0 +1,9 @@
+baseurl = "https://blog.ggymm.xyz"
+title = "GGYMM's Blog"
+theme = "stack"
+
+hasCJKLanguage = true
+defaultContentLanguage = "zh-cn"
+
+[pagination]
+pagerSize = 5
