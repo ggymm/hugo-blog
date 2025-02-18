@@ -36,5 +36,8 @@ type = "tag-cloud"
 [widgets.homepage.params]
 limit = 10
 
+[[widgets.page]]
+type = "toc"
+
 [comments]
 enabled = false
