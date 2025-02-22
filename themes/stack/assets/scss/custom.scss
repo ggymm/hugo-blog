@@ -1,1 +1,31 @@
-/* Place your custom SCSS in HUGO_SITE_FOLDER/assets/scss/custom.scss */
+@media(min-width: 768px) {
+    .container.extended {
+        max-width: 1024px;
+        --left-sidebar-max-width: 25%;
+        --right-sidebar-max-width: 30%
+    }
+}
+
+@media(min-width: 1024px) {
+    .container.extended {
+        max-width: 1280px;
+        --left-sidebar-max-width: 20%;
+        --right-sidebar-max-width: 30%
+    }
+}
+
+@media(min-width: 1280px) {
+    .container.extended {
+        max-width: 1600px;
+        --left-sidebar-max-width: 15%;
+        --right-sidebar-max-width: 25%
+    }
+}
+
+@media(min-width: 1600px) {
+    .container.extended {
+        max-width: 1920px;
+        --left-sidebar-max-width: 15%;
+        --right-sidebar-max-width: 25%
+    }
+}
